@@ -1,1 +1,4 @@
-*/*env
+geckodriver.exe
+/env
+*.csv
+*.xlsx
