@@ -12,7 +12,7 @@ url = 'https://www.formula1.com/en.html'
 driver = webdriver.Firefox()
 driver.get(url)
 def load_cookies():
-    cookies = pickle.load(open('cookies.pkl', 'rb'))
+    cookies = pickle.load(open('f1_cookies.pkl', 'rb'))
     for cookie in cookies:
         cookie['domain'] = '.formula1.com'
         try:
